@@ -1,10 +1,19 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@font-face {
+    font-family: "Permanent Marker";
+    src: url(../fonts/PermanentMarker.ttf) format("truetype"),
+      url(../fonts/PermanentMarker.woff) format("woff");
+}
+  
+  @font-face {
+    font-family: "Quicksand";
+    src: url(../fonts/Quicksand.ttf) format("truetype");
+}
 
 html {
     background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
+    font-family: Quicksand, sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
 }
@@ -17,8 +26,11 @@ html {
 h1 {
     font-weight: bold;
     margin: auto;
+    font-family: "Permanent Marker";
+    font-size: 3em;
+    text-align: center;
     background: #00b4d8;
-    color: #000;
+    color: white;
     line-height: 2.5em;
 }
 
