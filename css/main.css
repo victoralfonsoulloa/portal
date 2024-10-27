@@ -89,10 +89,10 @@ footer {
 
   picture.profile img {
     width: 50%;
-    border-radius: 3%;
-    margin-top: 5px;
+    border-radius: 2%;
+    margin: 1em;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     float: left;
-    margin-right: 2em;
   }
 }
 
@@ -110,8 +110,10 @@ footer {
 
   picture.profile img {
     width: 50%;
+    border-radius: 2%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     float: right;
-    margin-left: 1em;
+    margin: 1em;
   }
 }
 
