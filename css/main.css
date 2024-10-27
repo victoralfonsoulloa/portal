@@ -13,7 +13,7 @@
 
 html {
   background-color: lightgray;
-  font-family: Quicksand, sans-serif;
+  font-family: Quicksand, Verdana, 'Helvetica Neue', sans-serif;
   font-smooth: auto;
   font-size: 0.95em;
   line-height: 1.5em;
@@ -27,7 +27,7 @@ html {
 h1 {
   font-weight: bold;
   margin: auto;
-  font-family: 'Permanent Marker';
+  font-family: 'Permanent Marker', 'Comic Sans MS', cursive, sans-serif;;
   font-size: 3em;
   text-align: center;
   background: #00b4d8;
