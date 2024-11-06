@@ -27,11 +27,12 @@ html {
 h1 {
   font-weight: bold;
   margin: auto;
-  font-family: 'Permanent Marker', 'Comic Sans MS', cursive, sans-serif;;
+  font-family: Quicksand;
   font-size: 3em;
   text-align: center;
   background: #00b4d8;
-  color: #03045e;
+  border-radius: 1rem 1rem 0 0;
+  color: white;
   line-height: 2.5em;
 }
 
@@ -80,6 +81,7 @@ footer {
   main.wrapper {
     width: 80%;
     margin: auto;
+    border-radius: 0 0 1rem 1rem;
   }
 
   h1 {
@@ -89,10 +91,11 @@ footer {
 
   picture.profile img {
     width: 50%;
+    height: auto;
     border-radius: 2%;
-    margin: 1em;
+    display: block;
+    margin: 1rem auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    float: left;
   }
 }
 
