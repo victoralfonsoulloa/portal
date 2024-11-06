@@ -12,7 +12,7 @@
 }
 
 html {
-  background-color: lightgray;
+  background-color: #E4E0E1;
   font-family: Quicksand, Verdana, 'Helvetica Neue', sans-serif;
   font-smooth: auto;
   font-size: 0.95em;
@@ -21,7 +21,7 @@ html {
 
 ::selection {
   color: #000;
-  background: #ff0;
+  background: #493628;
 }
 
 h1 {
@@ -30,9 +30,9 @@ h1 {
   font-family: Quicksand;
   font-size: 3em;
   text-align: center;
-  background: #00b4d8;
+  background: #D6C0B3;
   border-radius: 1rem 1rem 0 0;
-  color: white;
+  color: #493628;
   line-height: 2.5em;
 }
 
@@ -53,13 +53,13 @@ h3 {
 }
 
 a {
-  color: darkcyan;
+  color: #493628;
   text-decoration: none;
 }
 
 a:hover {
   color: whitesmoke;
-  background-color: #03045e;
+  background-color: #AB886D;
   text-decoration: none;
 }
 
