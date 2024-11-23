@@ -26,7 +26,7 @@
 
 /* Responsive rules - apply when screen width is less than 1200px */
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1360px) {
     .topnav a:not(:first-child) {
         display: none;
     }
